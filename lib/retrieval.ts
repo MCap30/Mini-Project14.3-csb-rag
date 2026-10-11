@@ -5,11 +5,11 @@ import { openai } from "@ai-sdk/openai";
 
 type Chunk = {
   id: string; incident: string; sub_incident: string | null; section_type: string;
-  heading_path: string; page_start: number; text: string; embedding: number[];
+  heading_path: string; headings_in_chunk: string[]; page_start: number; text: string; embedding: number[];
 };
 
 const MIN_SCORE = 0.3;        // tune on your test questions
-const SUMMARY_PENALTY = 0;    // raise (e.g. 0.03) if executive summaries crowd out detail
+const SUMMARY_PENALTY = 0;    // raise (e.g. 0.08) if executive summaries crowd out detail
 
 let INDEX: Chunk[] | null = null;
 function loadIndex(): Chunk[] {
@@ -47,6 +47,7 @@ export async function search(query: string, opts: { incident?: string; topK?: nu
       incident: c.incident,
       subIncident: c.sub_incident,
       section: c.heading_path,
+      headings: c.headings_in_chunk,
       page: c.page_start,
       score: Number(score.toFixed(3)),
       text: c.text,

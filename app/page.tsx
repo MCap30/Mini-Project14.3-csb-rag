@@ -3,8 +3,9 @@
 import { useChat } from "@ai-sdk/react";
 import { useState } from "react";
 import type { UIMessage } from "ai";
+import ReactMarkdown from "react-markdown";
 
-type Source = { id: string; incident: string; section: string; page: number; text: string };
+type Source = { id: string; incident: string; section: string; headings?: string[]; page: number; text: string };
 
 const CITE = /\[([a-z]+-\d{3})\]/g;
 
@@ -57,7 +58,9 @@ function Message({ m }: { m: UIMessage }) {
   return (
     <div className="max-w-[95%]">
       {searching && <p className="mb-1 text-sm text-neutral-500">Searching the reports…</p>}
-      <p className="whitespace-pre-wrap">{withNumbers(raw, order)}</p>
+      <div className="space-y-3 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_strong]:font-semibold">
+        <ReactMarkdown>{withNumbers(raw, order)}</ReactMarkdown>
+        </div>
       {order.length > 0 && (
         <div className="mt-3 border-t border-neutral-200 pt-2 text-sm">
           <p className="font-medium">Sources</p>
@@ -66,7 +69,7 @@ function Message({ m }: { m: UIMessage }) {
               <li key={s.id}>
                 <details>
                   <summary className="cursor-pointer">
-                    [{i + 1}] {s.incident} — {s.section} (starts p.{s.page})
+                    [{i + 1}] {s.incident} — {s.section}{s.headings && s.headings.length > 1 ? ` + ${s.headings.slice(1, 4).join("; ")}` : ""} (starts p.{s.page})
                   </summary>
                   <p className="mt-1 whitespace-pre-wrap text-neutral-600">{s.text.slice(0, 600)}…</p>
                 </details>
