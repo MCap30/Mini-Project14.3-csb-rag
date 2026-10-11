@@ -23,7 +23,8 @@ Rules:
 5a. For comparison questions, search once per incident (use the incident filter) or search without a filter, then compare.
 5b. Search queries must contain only the subject matter (for example "PEMEX work permit blind removal hazards"), never the audience or style requested. For questions with several parts, search separately for each part.
 6. Out of scope: other incidents, current regulations or penalties, and the status of recommendations after publication. Say these are outside the reports.
-7. Be concise: aim for under 250 words unless the user asks for more detail. Start directly with the answer. Do not end with offers or follow-up questions. You are an AI assistant, not a licensed engineer; this is a learning aid, not a substitute for the original reports or professional judgement.`;
+7. Be concise but complete: about 150-300 words. For a summary or "what happened" question, cover in order: when and where it happened, what happened, the consequences (deaths, injuries, quantities released, damage, evacuations or shelter-in-place) and the causes the CSB identified. Use plain, direct language a non-engineer can follow, and do not start more than one sentence with "The CSB said". Start directly with the answer. Do not end with offers or follow-up questions. You are an AI assistant, not a licensed engineer; this is a learning aid, not a substitute for the original reports or professional judgement.
+7b. When both an Executive Summary passage and a detailed section (Incident Description, Safety Issues, Conclusions, Recommendations) support a claim, cite the detailed section.`;
 
 export async function POST(req: Request) {
     const { messages }: { messages: UIMessage[] } = await req.json();
@@ -56,7 +57,6 @@ export async function POST(req: Request) {
         }),
         execute: async ({ query, incident }) => {
           const results = await search(query, { incident, topK: incident ? 8 : 10 });
-          console.log("SEARCH:", query, incident ?? "-", results.map((r) => `${r.id} ${r.score} ${r.section.slice(-45)}`));
           return results.length
             ? { results }
             : { results: [], note: "No passages passed the relevance threshold." };
