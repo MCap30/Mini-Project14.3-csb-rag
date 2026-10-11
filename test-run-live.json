@@ -1,0 +1,2712 @@
+{
+ "base": "https://mini-project14-3-csb-rag.vercel.app",
+ "date": "2026-10-11T19:47:00.178Z",
+ "results": [
+  {
+   "id": "Q1",
+   "type": "single",
+   "q": "How did the workers end up opening the wrong flange at PEMEX?",
+   "run": 1,
+   "status": 200,
+   "text": "They opened the wrong flange because the marking system did not clearly point them to Blind 407, so they used the wrong visual cue. The Repcon boilermakers said they were looking for orange-and-blue blind tags or unlocked red flange-locking devices instead of the blind list or drawing. [pemex-012]\n\nAt the Blind 407 location, there were two similar piping segments only 5 feet apart. The intended ARU6 piping had been depressurized, purged, and isolated, but the nearby ARU7 piping was still active and contained hydrogen sulfide. The workers said they did not see the Blind 407 tag, which was fastened to the railing above the blind. Instead, they saw a flange-locking device on the ARU7 flange and believed that was the work location. [pemex-012]\n\nThe CSB said PEMEX Deer Park did not have a clearly defined system to identify equipment for opening during Run-and-Maintain work. The blind tags were not consistently placed directly on the flange, and the flange-locking devices were never meant to identify equipment for opening. That combination led the workers to pick the active line by mistake. [pemex-019][pemex-020][pemex-025]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "wrong flange opened workers line up isolated line wrong flange blind removal valve lineup permit maintenance",
+      "incident": "pemex"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "pemex-019",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.528
+    },
+    {
+     "id": "pemex-012",
+     "section": "2 Incident Description > 2.4 Amine Unit Blind Removal",
+     "page": 20,
+     "score": 0.527
+    },
+    {
+     "id": "pemex-026",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities",
+     "page": 36,
+     "score": 0.526
+    },
+    {
+     "id": "pemex-025",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities",
+     "page": 36,
+     "score": 0.525
+    },
+    {
+     "id": "pemex-020",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.516
+    },
+    {
+     "id": "pemex-028",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.514
+    },
+    {
+     "id": "pemex-029",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.511
+    },
+    {
+     "id": "pemex-023",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.509
+    }
+   ]
+  },
+  {
+   "id": "Q1",
+   "type": "single",
+   "q": "How did the workers end up opening the wrong flange at PEMEX?",
+   "run": 2,
+   "status": 200,
+   "text": "They ended up at the wrong flange because PEMEX did not give them a clear, standard way to identify which equipment to open during Run-and-Maintain work. The boilermakers were looking for Blind 407, but the normal job aids were not enough to point them to the right spot. [pemex-018][pemex-045]\n\nInstead, they relied on other visual cues that were not meant to be the main identifier. They focused on flange-locking devices they had used during a prior turnaround, and an unlocked flange-locking device on ARU7 piping led them to think that was the correct location. The blind tag for Blind 407 was out of sight, and the piping systems were not distinctly labeled, so the two lines looked confusingly similar. [pemex-019][pemex-020][pemex-045]\n\nThe CSB said PEMEX also used a Circle-X marking practice that could be left from earlier work, which added more confusion. In short: the workers were trying to identify the opening by imperfect clues, and those clues pointed them to the active ARU7 line instead of the intended ARU6 blind location. [pemex-021][pemex-045]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "workers opened wrong flange PEMEX how ended up opening wrong flange work permit blind removal valve line identification",
+      "incident": "pemex"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "pemex-026",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities",
+     "page": 36,
+     "score": 0.654
+    },
+    {
+     "id": "pemex-025",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities",
+     "page": 36,
+     "score": 0.65
+    },
+    {
+     "id": "pemex-020",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.64
+    },
+    {
+     "id": "pemex-019",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.64
+    },
+    {
+     "id": "pemex-046",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.637
+    },
+    {
+     "id": "pemex-021",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.628
+    },
+    {
+     "id": "pemex-018",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.1 Intended Equipment Identification Methods",
+     "page": 27,
+     "score": 0.623
+    },
+    {
+     "id": "pemex-045",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.618
+    }
+   ]
+  },
+  {
+   "id": "Q2",
+   "type": "single",
+   "q": "What caused the furnace explosion at Shell Polymers Monaca?",
+   "run": 1,
+   "status": 200,
+   "text": "The furnace explosion at Shell Polymers Monaca was caused by the inadvertent simultaneous opening of both motor-operated valves used to isolate Furnace 5. That opened a path for cracked gas to backflow into the furnace firebox, where the existing flame ignited it and caused the explosion. [monaca-037][monaca-015]\n\nSeveral factors contributed. A PACO engineer with limited process knowledge was assigned to manipulate the valves. Shell relied on administrative controls that were ineffective for preventing the backflow hazard. The safety system’s HMI also made the valves hard to distinguish because it put three similar valves on one diagram without clear labels. [monaca-037][monaca-002]\n\nIn the incident itself, cracked gas accumulated in the firebox for about 2.5 minutes before igniting. The blast damaged Furnace 5, caused a fire, led to the evacuation of 15 employees, and Shell estimated about $95 million in property damage. [monaca-016][monaca-017]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "shell polymers monaca furnace explosion causes what caused furnace explosion",
+      "incident": "monaca"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "monaca-037",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 53,
+     "score": 0.774
+    },
+    {
+     "id": "monaca-015",
+     "section": "2 Incident Description > 2.4 Creation of an Unintended Flow Path",
+     "page": 26,
+     "score": 0.728
+    },
+    {
+     "id": "monaca-016",
+     "section": "2 Incident Description > 2.5 Gas Accumulation and Ignition",
+     "page": 30,
+     "score": 0.705
+    },
+    {
+     "id": "monaca-017",
+     "section": "2 Incident Description > 2.6 Consequences",
+     "page": 31,
+     "score": 0.688
+    },
+    {
+     "id": "monaca-001",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.686
+    },
+    {
+     "id": "monaca-039",
+     "section": "6 Key Lessons for the Industry",
+     "page": 54,
+     "score": 0.663
+    },
+    {
+     "id": "monaca-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.658
+    },
+    {
+     "id": "monaca-009",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.1 OSHA Process Safety Management Standard",
+     "page": 20,
+     "score": 0.647
+    }
+   ]
+  },
+  {
+   "id": "Q2",
+   "type": "single",
+   "q": "What caused the furnace explosion at Shell Polymers Monaca?",
+   "run": 2,
+   "status": 200,
+   "text": "The Shell Polymers Monaca furnace exploded because both motor-operated isolation valves were opened at the same time by mistake. That created a path for cracked gas to flow back into Furnace 5’s firebox, where lit pilots ignited it. [monaca-037][monaca-015][monaca-016]\n\nThe CSB said several things contributed to that mistake. Shell assigned a process control engineer with limited process knowledge to operate the valves, relied on ineffective administrative controls instead of engineered protection, and used an HMI that put the valves on one screen with unclear labels, which made confusion more likely. [monaca-037][monaca-002]\n\nIn the event itself, cracked gas backed into the firebox for about 2.5 minutes and then ignited, causing the explosion and a fire. Shell estimated about 515 pounds of non-combusted cracked gas and about 4,600 pounds of combustion products were released, and the explosion caused about $95 million in property damage. [monaca-016][monaca-017]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Shell Polymers Monaca furnace explosion causes ignition source furnace tube rupture hydrocarbon release",
+      "incident": "monaca"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "monaca-037",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 53,
+     "score": 0.784
+    },
+    {
+     "id": "monaca-015",
+     "section": "2 Incident Description > 2.4 Creation of an Unintended Flow Path",
+     "page": 26,
+     "score": 0.764
+    },
+    {
+     "id": "monaca-016",
+     "section": "2 Incident Description > 2.5 Gas Accumulation and Ignition",
+     "page": 30,
+     "score": 0.746
+    },
+    {
+     "id": "monaca-017",
+     "section": "2 Incident Description > 2.6 Consequences",
+     "page": 31,
+     "score": 0.743
+    },
+    {
+     "id": "monaca-001",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.728
+    },
+    {
+     "id": "monaca-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.698
+    },
+    {
+     "id": "monaca-039",
+     "section": "6 Key Lessons for the Industry",
+     "page": 54,
+     "score": 0.693
+    },
+    {
+     "id": "monaca-041",
+     "section": "Appendix C: OSHA Citations",
+     "page": 69,
+     "score": 0.692
+    }
+   ]
+  },
+  {
+   "id": "Q3",
+   "type": "single",
+   "q": "What did the CSB recommend to Shell Polymers?",
+   "run": 1,
+   "status": 200,
+   "text": "The CSB recommended two actions to Shell Polymers Monaca.\n\nFirst, Shell should review the ethane cracking unit process hazard analysis to find process deviations that are handled only with administrative controls, and then put in an inherently safer design or an engineered control for any scenario that could lead to a fatality, serious injury, or major property damage. [monaca-038]\n\nSecond, Shell should, using licensor input and good industry practices, implement and maintain an engineered control that prevents backflow of cracked gas into a furnace in all modes of furnace operation. [monaca-038]\n\nThe report also says Shell had already taken corrective actions after the incident, so the CSB did not make additional recommendations on some of the specific valve-control issues. Instead, it urged Shell to make sure those new controls are fully implemented and consistently followed on all furnaces at the facility. It also urged periodic cleaning of the furnace coke traps according to Linde’s guidance. [monaca-038]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Shell Polymers Monaca recommendations",
+      "incident": "monaca"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "monaca-004",
+     "section": "1 Background",
+     "page": 10,
+     "score": 0.606
+    },
+    {
+     "id": "monaca-008",
+     "section": "1 Background > 1.5 Ethylene",
+     "page": 20,
+     "score": 0.569
+    },
+    {
+     "id": "monaca-009",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.1 OSHA Process Safety Management Standard",
+     "page": 20,
+     "score": 0.548
+    },
+    {
+     "id": "monaca-038",
+     "section": "5 Recommendations",
+     "page": 53,
+     "score": 0.522
+    },
+    {
+     "id": "monaca-039",
+     "section": "6 Key Lessons for the Industry",
+     "page": 54,
+     "score": 0.519
+    },
+    {
+     "id": "monaca-010",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.2 EPA Risk Management Program",
+     "page": 21,
+     "score": 0.505
+    },
+    {
+     "id": "monaca-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.495
+    },
+    {
+     "id": "monaca-037",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 53,
+     "score": 0.478
+    }
+   ]
+  },
+  {
+   "id": "Q3",
+   "type": "single",
+   "q": "What did the CSB recommend to Shell Polymers?",
+   "run": 2,
+   "status": 200,
+   "text": "The CSB recommended two things to Shell Polymers Monaca.\n\nFirst, Shell should review the ethane cracking unit’s process hazard analysis to find process deviations that are handled only by administrative controls, and then use an inherently safer design or an engineered control for any scenario that could lead to a fatality, serious injury, or major property damage. [monaca-038]\n\nSecond, Shell should, using licensor input and good industry practice, implement and maintain an engineered control to prevent cracked gas from flowing back into a furnace during all modes of furnace operation. [monaca-038]\n\nThe report also says Shell had already made some corrective changes after the incident, so the CSB was not making recommendations on those specific issues, but it urged Shell to make sure the new controls are fully implemented and consistently followed across all furnaces, and to clean furnace coke traps periodically and according to Linde’s guidance. [monaca-038]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Shell Polymers Monaca CSB recommendations Shell Polymers",
+      "incident": "monaca"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "monaca-004",
+     "section": "1 Background",
+     "page": 10,
+     "score": 0.627
+    },
+    {
+     "id": "monaca-038",
+     "section": "5 Recommendations",
+     "page": 53,
+     "score": 0.608
+    },
+    {
+     "id": "monaca-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.584
+    },
+    {
+     "id": "monaca-009",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.1 OSHA Process Safety Management Standard",
+     "page": 20,
+     "score": 0.575
+    },
+    {
+     "id": "monaca-027",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.558
+    },
+    {
+     "id": "monaca-008",
+     "section": "1 Background > 1.5 Ethylene",
+     "page": 20,
+     "score": 0.557
+    },
+    {
+     "id": "monaca-010",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.2 EPA Risk Management Program",
+     "page": 21,
+     "score": 0.551
+    },
+    {
+     "id": "monaca-012",
+     "section": "2 Incident Description > 2.3 Furnace Return to Operation",
+     "page": 26,
+     "score": 0.542
+    }
+   ]
+  },
+  {
+   "id": "Q4",
+   "type": "single",
+   "q": "What mechanical integrity problems did the CSB find in the 2023 Honeywell reboiler explosion?",
+   "run": 1,
+   "status": 200,
+   "text": "The CSB found that Honeywell’s mechanical integrity system did not manage the reboiler’s known thinning problem to safe closure. In October 2021, Honeywell’s reliability group inspected the reboiler and found the shell was approaching Tmin, meaning it needed replacement. The site also documented signs of wall loss and a low UT reading, but there was no evidence of a proper fitness-for-service evaluation, and the “fit for service” note was not supported. [geismar-028]\n\nThe CSB said Honeywell then failed to do the basic MI follow-through. It did not create the required SAP deficiency notification, did not create the DMAPS action item, did not set up a notification for the next inspection, and did not keep the problem visible to operations, maintenance, and management. [geismar-034][geismar-031]\n\nThe report also says the site had a long history of reboiler shell corrosion and repeated shell replacements, but Honeywell did not preserve key thickness data from earlier shells and did not fully investigate why corrosion behavior changed in earlier failures. [geismar-024][geismar-025][geismar-028]\n\nIn short, the MI problems were failure to document the deficiency, failure to communicate it, failure to schedule and track corrective action, and failure to replace the shell before the 2023 rupture. [geismar-034][geismar-069]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "2023 Honeywell reboiler explosion mechanical integrity problems",
+      "incident": "geismar"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "geismar-024",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.803
+    },
+    {
+     "id": "geismar-034",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.776
+    },
+    {
+     "id": "geismar-026",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.77
+    },
+    {
+     "id": "geismar-025",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.768
+    },
+    {
+     "id": "geismar-030",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.766
+    },
+    {
+     "id": "geismar-028",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.2 Key Events Prior to the 2023 Shell Failure",
+     "page": 46,
+     "score": 0.761
+    },
+    {
+     "id": "geismar-031",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.761
+    },
+    {
+     "id": "geismar-069",
+     "section": "7 Conclusions > 7.1 Findings > 7.1.2 2023 HF Reboiler Explosion",
+     "page": 90,
+     "score": 0.746
+    }
+   ]
+  },
+  {
+   "id": "Q4",
+   "type": "single",
+   "q": "What mechanical integrity problems did the CSB find in the 2023 Honeywell reboiler explosion?",
+   "run": 2,
+   "status": 200,
+   "text": "The CSB found that Honeywell’s mechanical integrity system failed to keep the reboiler from running to catastrophic failure. After an October 2021 inspection, Honeywell knew the shell was approaching minimum thickness and needed replacement, but it did not create the required deficiency notification in SAP, did not create a DMAPS action item, and did not create a next-inspection notification. As a result, the problem was not tracked to closure and no later inspection was done before the January 2023 rupture. [geismar-030][geismar-031][geismar-034]\n\nThe CSB also found that Honeywell did not adequately document or preserve key inspection information. The company could not produce documentation for a claimed UT inspection in October 2021, and it did not preserve the thickness data for earlier shell failures, which limited later review of the corrosion history. [geismar-028][geismar-025]\n\nOn the physical side, the failed shell had thinned severely from HF corrosion. After the accident, metallurgical examination found some spots as thin as 0.030 inches, far below Tmin. [geismar-028] The earlier shell history also showed recurring thinning, leaks, and a prior case where the shell had dropped below Tmin and had to be removed from service. [geismar-024][geismar-026]\n\nIn short: the MI problems were missed escalation, poor tracking, poor documentation, and failure to replace or re-inspect a shell the site already knew was nearing failure. [geismar-030][geismar-034]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "2023 Honeywell reboiler explosion mechanical integrity problems reboiler inspection corrosion thickness inspection maintenance",
+      "incident": "geismar"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "geismar-024",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.801
+    },
+    {
+     "id": "geismar-025",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.788
+    },
+    {
+     "id": "geismar-026",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues",
+     "page": 41,
+     "score": 0.775
+    },
+    {
+     "id": "geismar-028",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.2 Key Events Prior to the 2023 Shell Failure",
+     "page": 46,
+     "score": 0.774
+    },
+    {
+     "id": "geismar-030",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.767
+    },
+    {
+     "id": "geismar-031",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.747
+    },
+    {
+     "id": "geismar-034",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.746
+    },
+    {
+     "id": "geismar-021",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.1 Background",
+     "page": 37,
+     "score": 0.731
+    }
+   ]
+  },
+  {
+   "id": "Q5",
+   "type": "single",
+   "q": "Why was Reactor 6's relief system inadequate at Givaudan?",
+   "run": 1,
+   "status": 200,
+   "text": "Reactor 6’s relief system was inadequate because it was the wrong size for the runaway sugar decomposition reaction that happened that day. The CSB said the system did function as designed, but it was undersized, so the gas and pressure could not be relieved fast enough and the reactor kept building pressure until it ruptured. The existing emergency pressure relief system would have needed to be about four times larger to prevent the rupture; the CSB also said a 4-inch rupture disc alone should have provided enough relief capacity. [givaudan-060][givaudan-035]\n\nThe report also says the relief system design for Reactor 6 was based on Reactor 2, but the facility did not have documentation showing the design basis for Reactor 2’s relief system. In other words, the team did not have a clear documented basis showing that the chosen relief arrangement could handle this reaction scenario. [givaudan-033][givaudan-063]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Givaudan Reactor 6 relief system inadequate causes inadequate relief system Reactor 6 runaway reaction",
+      "incident": "givaudan"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "givaudan-035",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.2 Required Relief System Design to Prevent Reactor 6 Rupture",
+     "page": 49,
+     "score": 0.724
+    },
+    {
+     "id": "givaudan-060",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.711
+    },
+    {
+     "id": "givaudan-019",
+     "section": "2 November 12, 2024, Incident Description > 2.3 Reactor 6 Explosion",
+     "page": 31,
+     "score": 0.707
+    },
+    {
+     "id": "givaudan-033",
+     "section": "3 Technical Analysis > 3.4 Relief System Design",
+     "page": 47,
+     "score": 0.702
+    },
+    {
+     "id": "givaudan-032",
+     "section": "3 Technical Analysis > 3.3 Reactor 6 Temperature Control",
+     "page": 46,
+     "score": 0.686
+    },
+    {
+     "id": "givaudan-030",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.657
+    },
+    {
+     "id": "givaudan-061",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.654
+    },
+    {
+     "id": "givaudan-063",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.653
+    }
+   ]
+  },
+  {
+   "id": "Q5",
+   "type": "single",
+   "q": "Why was Reactor 6's relief system inadequate at Givaudan?",
+   "run": 2,
+   "status": 200,
+   "text": "Reactor 6’s relief system was inadequate because it was too small for the runaway sugar decomposition reaction that happened that day. The CSB said the relief system did function as designed, but it could not relieve the gas and pressure fast enough, so the pressure kept rising until the reactor ruptured. [givaudan-035][givaudan-060]\n\nThe system on Reactor 6 used a 4-inch rupture disc and a 4M6 pressure relief valve in series. The CSB’s modeling found that a much larger relief system would have been needed to prevent rupture: either a pressure relief valve with at least 16.74 square inches of relief area, or a 4-inch rupture disc alone instead of the valve-plus-disc arrangement. [givaudan-033][givaudan-035]\n\nThe report also says the design team did not have clear documentation of the earlier relief-system changes on other reactors, and that this lack of records helped lead to an undersized design for Reactor 6. [givaudan-042][givaudan-062]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Reactor 6 relief system inadequate why inadequate relief system Reactor 6",
+      "incident": "givaudan"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "givaudan-035",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.2 Required Relief System Design to Prevent Reactor 6 Rupture",
+     "page": 49,
+     "score": 0.743
+    },
+    {
+     "id": "givaudan-033",
+     "section": "3 Technical Analysis > 3.4 Relief System Design",
+     "page": 47,
+     "score": 0.715
+    },
+    {
+     "id": "givaudan-034",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.1 Testing of Relief System Components",
+     "page": 48,
+     "score": 0.667
+    },
+    {
+     "id": "givaudan-032",
+     "section": "3 Technical Analysis > 3.3 Reactor 6 Temperature Control",
+     "page": 46,
+     "score": 0.641
+    },
+    {
+     "id": "givaudan-019",
+     "section": "2 November 12, 2024, Incident Description > 2.3 Reactor 6 Explosion",
+     "page": 31,
+     "score": 0.637
+    },
+    {
+     "id": "givaudan-060",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.626
+    },
+    {
+     "id": "givaudan-042",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.2 Louisville Facility’s Process Safety Policy Implementation Deficiencies",
+     "page": 57,
+     "score": 0.625
+    },
+    {
+     "id": "givaudan-062",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.624
+    }
+   ]
+  },
+  {
+   "id": "Q6",
+   "type": "single",
+   "q": "What was the means-of-egress problem in the Wacker incident?",
+   "run": 1,
+   "status": 200,
+   "text": "The means-of-egress problem was that the fifth-floor platform where the workers were exposed had only a single way out. Wacker had designed the structure as an “unoccupiable equipment platform,” so it treated the access stair as enough under the building code. But Wacker’s own Process Hazard Analysis had already identified the risk of having only one exit and recommended adding a second means of egress, such as a ladder with an enclosed cage on the opposite end of the structure, if the route to the stairs was blocked. That recommendation was not implemented before the incident. [wacker-002][wacker-027][wacker-028]\n\nThe CSB said this mattered because the hydrogen chloride release happened while seven workers were on that platform, and the limited egress could have prevented workers from getting out safely. [wacker-002][wacker-033]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Wacker means of egress problem emergency exit access blocked delayed evacuation",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "wacker-029",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.632
+    },
+    {
+     "id": "wacker-028",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.2 Wacker’s Application of the International Building Code",
+     "page": 45,
+     "score": 0.624
+    },
+    {
+     "id": "wacker-032",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.607
+    },
+    {
+     "id": "wacker-027",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.1 Wacker Employees’ Identification of Egress Gap in PHA",
+     "page": 44,
+     "score": 0.595
+    },
+    {
+     "id": "wacker-031",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.587
+    },
+    {
+     "id": "wacker-033",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 48,
+     "score": 0.538
+    },
+    {
+     "id": "wacker-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.536
+    },
+    {
+     "id": "wacker-019",
+     "section": "4 Safety Issues > 4.3 Simultaneous Operations (SIMOPs)",
+     "page": 33,
+     "score": 0.531
+    }
+   ]
+  },
+  {
+   "id": "Q6",
+   "type": "single",
+   "q": "What was the means-of-egress problem in the Wacker incident?",
+   "run": 2,
+   "status": 200,
+   "text": "The means-of-egress problem was that the fifth-floor platform had only one staircase, so when the hydrogen chloride cloud made that path unusable, the workers had no second way out. [wacker-001][wacker-013]\n\nWacker had already identified this in its process hazard analysis three months earlier. The analysis asked what would happen if there were an HCl leak and workers had to move through the cloud to reach the stairs, and it recommended installing a ladder or other alternate exit on the opposite side of the structure. That second exit was not installed before the incident. [wacker-027]\n\nThe CSB said the limited egress contributed to the severity of the event. It also said the building codes and standards then in place did not provide sufficient means of egress for elevated work platforms used to access hazardous materials equipment. [wacker-034][wacker-031]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "means of egress problem evacuation emergency exit access blocked obstructed hydrogen chloride release",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "wacker-031",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.621
+    },
+    {
+     "id": "wacker-032",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.6
+    },
+    {
+     "id": "wacker-027",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.1 Wacker Employees’ Identification of Egress Gap in PHA",
+     "page": 44,
+     "score": 0.578
+    },
+    {
+     "id": "wacker-013",
+     "section": "2 Incident Description",
+     "page": 21,
+     "score": 0.572
+    },
+    {
+     "id": "wacker-030",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.3 Gap in Means of Egress Codes and Standards",
+     "page": 45,
+     "score": 0.549
+    },
+    {
+     "id": "wacker-034",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 49,
+     "score": 0.534
+    },
+    {
+     "id": "wacker-001",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.528
+    },
+    {
+     "id": "wacker-033",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 48,
+     "score": 0.523
+    }
+   ]
+  },
+  {
+   "id": "Q7",
+   "type": "cross",
+   "q": "Which incidents involved problems with pressure relief systems?",
+   "run": 1,
+   "status": 200,
+   "text": "Based on the six reports, the incidents with pressure relief system problems were:\n\n- **Dow Louisiana Operations**: the product cooler’s pressure relief system was part of the event. The report says the rupture disc and PRV combination existed, the discharge piping lost its inert atmosphere, and the pressure relief piping and vent routing contributed to the explosion severity. The report also says the pressure relief system was undersized for the reaction and that venting to the reflux drum made the consequences worse. [dow-006][dow-026][dow-030][dow-012]\n- **Givaudan Sense Colour**: Reactor 6 had an emergency pressure relief system, but it was **undersized** for the runaway reaction. The report says the relief system functioned, but it could not relieve enough gas and pressure to prevent the reactor rupture. [givaudan-033][givaudan-035][givaudan-061]\n\nThe other reports retrieved here do **not** show pressure relief system problems as the main issue:\n- **PEMEX Deer Park**: the passages retrieved are about equipment identification and blind removal, not pressure relief. [pemex-017][pemex-045]\n- **Shell Polymers Monaca**: the passages retrieved are about MOVs, alarms, and bypassing, not pressure relief systems. [monaca-019][monaca-026][monaca-029]\n- **Honeywell Geismar**: the passages retrieved are about mechanical integrity, gaskets, reboilers, and trapped HF, not pressure relief systems. [geismar-031][geismar-055][geismar-071]\n- **Wacker Polysilicon**: the passages retrieved are about torquing, SIMOPs, and egress, not pressure relief systems. [wacker-001][wacker-033][wacker-034]\n\nChecked all six incidents.",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "monaca"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "dow"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "givaudan"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "geismar"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problems",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "givaudan-033",
+     "section": "3 Technical Analysis > 3.4 Relief System Design",
+     "page": 47,
+     "score": 0.58
+    },
+    {
+     "id": "givaudan-034",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.1 Testing of Relief System Components",
+     "page": 48,
+     "score": 0.54
+    },
+    {
+     "id": "givaudan-035",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.2 Required Relief System Design to Prevent Reactor 6 Rupture",
+     "page": 49,
+     "score": 0.523
+    },
+    {
+     "id": "givaudan-044",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.2 Louisville Facility’s Process Safety Policy Implementation Deficiencies",
+     "page": 57,
+     "score": 0.438
+    },
+    {
+     "id": "givaudan-030",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.435
+    },
+    {
+     "id": "givaudan-031",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.434
+    },
+    {
+     "id": "givaudan-061",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 75,
+     "score": 0.424
+    },
+    {
+     "id": "givaudan-042",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.2 Louisville Facility’s Process Safety Policy Implementation Deficiencies",
+     "page": 57,
+     "score": 0.423
+    },
+    {
+     "id": "pemex-024",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.447
+    },
+    {
+     "id": "pemex-029",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.427
+    },
+    {
+     "id": "pemex-028",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.41
+    },
+    {
+     "id": "pemex-045",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.406
+    },
+    {
+     "id": "pemex-017",
+     "section": "3 Safety Issues",
+     "page": 26,
+     "score": 0.405
+    },
+    {
+     "id": "pemex-008",
+     "section": "1 Background > 1.5 Personal Protective Equipment",
+     "page": 15,
+     "score": 0.402
+    },
+    {
+     "id": "pemex-022",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.4
+    },
+    {
+     "id": "pemex-023",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.399
+    },
+    {
+     "id": "monaca-027",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.432
+    },
+    {
+     "id": "monaca-019",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.429
+    },
+    {
+     "id": "monaca-025",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.426
+    },
+    {
+     "id": "monaca-024",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.42
+    },
+    {
+     "id": "monaca-026",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.418
+    },
+    {
+     "id": "monaca-033",
+     "section": "3 Safety Issues > 3.2 Human-Machine Interface > 3.2.1 Furnace Motor-Operated Valves HMI",
+     "page": 46,
+     "score": 0.414
+    },
+    {
+     "id": "monaca-035",
+     "section": "3 Safety Issues > 3.2 Human-Machine Interface > 3.2.2 Post-Incident Changes",
+     "page": 50,
+     "score": 0.413
+    },
+    {
+     "id": "monaca-029",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.3 Engineered Controls",
+     "page": 44,
+     "score": 0.412
+    },
+    {
+     "id": "wacker-025",
+     "section": "4 Safety Issues > 4.3 Simultaneous Operations (SIMOPs) > 4.3.2  SIMOPs Standards and Guidelines > 4.3.2.3 Other Incidents Involving SIMOPs Issues",
+     "page": 41,
+     "score": 0.385
+    },
+    {
+     "id": "wacker-013",
+     "section": "2 Incident Description",
+     "page": 21,
+     "score": 0.372
+    },
+    {
+     "id": "wacker-017",
+     "section": "4 Safety Issues > 4.1 Written Procedures > 4.1.3 Lack of Procedure",
+     "page": 30,
+     "score": 0.371
+    },
+    {
+     "id": "wacker-033",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 48,
+     "score": 0.368
+    },
+    {
+     "id": "wacker-001",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.365
+    },
+    {
+     "id": "wacker-009",
+     "section": "1 Background > 1.6 Retorquing Requirements",
+     "page": 16,
+     "score": 0.357
+    },
+    {
+     "id": "wacker-034",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 49,
+     "score": 0.353
+    },
+    {
+     "id": "wacker-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.349
+    },
+    {
+     "id": "dow-028",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.5 Industry Guidance",
+     "page": 41,
+     "score": 0.529
+    },
+    {
+     "id": "dow-030",
+     "section": "4 Safety Issues > 4.3 Pressure Relief System Design",
+     "page": 43,
+     "score": 0.519
+    },
+    {
+     "id": "dow-025",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.2 Nitrogen Inerting During the 2020 Maintenance",
+     "page": 38,
+     "score": 0.487
+    },
+    {
+     "id": "dow-012",
+     "section": "3 Technical Analysis > 3.4 Propagation to Reflux Drum",
+     "page": 27,
+     "score": 0.487
+    },
+    {
+     "id": "dow-006",
+     "section": "1 Background > 1.4 Product Cooler",
+     "page": 14,
+     "score": 0.464
+    },
+    {
+     "id": "dow-026",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.3 Dow Pressure Relief guidance for ethylene oxide service",
+     "page": 39,
+     "score": 0.461
+    },
+    {
+     "id": "dow-027",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.4 Process Hazards Analysis",
+     "page": 40,
+     "score": 0.444
+    },
+    {
+     "id": "dow-010",
+     "section": "3 Technical Analysis > 3.2 Rupture Disc Failure",
+     "page": 24,
+     "score": 0.437
+    },
+    {
+     "id": "geismar-030",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.44
+    },
+    {
+     "id": "geismar-034",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.418
+    },
+    {
+     "id": "geismar-060",
+     "section": "5 Safety Management Systems Implementation and Auditing",
+     "page": 82,
+     "score": 0.414
+    },
+    {
+     "id": "geismar-031",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.413
+    },
+    {
+     "id": "geismar-015",
+     "section": "2 Gasket Failure, Toxic HF Release, and Fatality – October 2021 > 2.4 Safety Issues",
+     "page": 28,
+     "score": 0.411
+    },
+    {
+     "id": "geismar-056",
+     "section": "4 HF Release and Serious Injury – June 2024 > 4.3 Safety Issues > 4.3.1 Safe Work Practices > 4.3.1.2 Honeywell Maintenance Planning and Hazard Identification",
+     "page": 79,
+     "score": 0.408
+    },
+    {
+     "id": "geismar-055",
+     "section": "4 HF Release and Serious Injury – June 2024 > 4.3 Safety Issues",
+     "page": 77,
+     "score": 0.406
+    },
+    {
+     "id": "geismar-071",
+     "section": "7 Conclusions > 7.2 Causes",
+     "page": 94,
+     "score": 0.404
+    }
+   ]
+  },
+  {
+   "id": "Q7",
+   "type": "cross",
+   "q": "Which incidents involved problems with pressure relief systems?",
+   "run": 2,
+   "status": 200,
+   "text": "The incidents with pressure relief system problems were Dow Louisiana Operations and Givaudan Sense Colour. [dow-006][dow-012][dow-031][givaudan-033][givaudan-035]\n\nAt Dow, the pressure relief system for the product cooler was part of the problem. The product cooler’s relief piping was routed to the reflux drum, and the CSB said Dow did not adequately assess the risk of venting to a vessel full of reactive ethylene oxide. When ethylene oxide entered the relief piping, it ignited, propagated to the PRV, and then into the reflux drum, which overpressured and failed catastrophically. [dow-006][dow-012][dow-031]\n\nAt Givaudan, the emergency pressure relief system did function, but it was undersized for the runaway reaction in Reactor 6. The CSB said the relief system, a rupture disc and pressure relief valve in series, could not adequately relieve the gases and pressure generated, so the reactor ruptured. [givaudan-033][givaudan-034][givaudan-035]\n\nThe other four reports I checked did not show a pressure relief system as a central issue in the passages returned. They focused instead on line opening errors at PEMEX, furnace valve control at Monaca, HF releases and maintenance practices at Honeywell Geismar, and a torquing-related nozzle fracture at Wacker. [pemex-013][monaca-037][geismar-023][wacker-034]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "monaca"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "dow"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "givaudan"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "geismar"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "pressure relief system problem relief valve venting overpressure rupture disk pressure relief",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "givaudan-033",
+     "section": "3 Technical Analysis > 3.4 Relief System Design",
+     "page": 47,
+     "score": 0.582
+    },
+    {
+     "id": "givaudan-034",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.1 Testing of Relief System Components",
+     "page": 48,
+     "score": 0.568
+    },
+    {
+     "id": "givaudan-035",
+     "section": "3 Technical Analysis > 3.4 Relief System Design > 3.4.2 Required Relief System Design to Prevent Reactor 6 Rupture",
+     "page": 49,
+     "score": 0.544
+    },
+    {
+     "id": "givaudan-031",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.467
+    },
+    {
+     "id": "givaudan-028",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.447
+    },
+    {
+     "id": "givaudan-018",
+     "section": "2 November 12, 2024, Incident Description > 2.2 Closed Vent Valve",
+     "page": 29,
+     "score": 0.446
+    },
+    {
+     "id": "givaudan-030",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.441
+    },
+    {
+     "id": "givaudan-029",
+     "section": "3 Technical Analysis > 3.2 Reactor 6 Pressure Control (Vent Valve)",
+     "page": 41,
+     "score": 0.428
+    },
+    {
+     "id": "dow-030",
+     "section": "4 Safety Issues > 4.3 Pressure Relief System Design",
+     "page": 43,
+     "score": 0.549
+    },
+    {
+     "id": "dow-010",
+     "section": "3 Technical Analysis > 3.2 Rupture Disc Failure",
+     "page": 24,
+     "score": 0.543
+    },
+    {
+     "id": "dow-028",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.5 Industry Guidance",
+     "page": 41,
+     "score": 0.532
+    },
+    {
+     "id": "dow-006",
+     "section": "1 Background > 1.4 Product Cooler",
+     "page": 14,
+     "score": 0.528
+    },
+    {
+     "id": "dow-012",
+     "section": "3 Technical Analysis > 3.4 Propagation to Reflux Drum",
+     "page": 27,
+     "score": 0.527
+    },
+    {
+     "id": "dow-025",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.2 Nitrogen Inerting During the 2020 Maintenance",
+     "page": 38,
+     "score": 0.505
+    },
+    {
+     "id": "dow-031",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 45,
+     "score": 0.481
+    },
+    {
+     "id": "dow-026",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.3 Dow Pressure Relief guidance for ethylene oxide service",
+     "page": 39,
+     "score": 0.47
+    },
+    {
+     "id": "wacker-014",
+     "section": "3 Technical Analysis",
+     "page": 26,
+     "score": 0.341
+    },
+    {
+     "id": "wacker-034",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 49,
+     "score": 0.323
+    },
+    {
+     "id": "wacker-008",
+     "section": "1 Background > 1.5 Heat Exchanger AW234",
+     "page": 15,
+     "score": 0.312
+    },
+    {
+     "id": "wacker-013",
+     "section": "2 Incident Description",
+     "page": 21,
+     "score": 0.312
+    },
+    {
+     "id": "wacker-012",
+     "section": "2 Incident Description",
+     "page": 21,
+     "score": 0.308
+    },
+    {
+     "id": "geismar-022",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.1 Background > 3.1.2 Boiling Liquid Expanding Vapor Explosions",
+     "page": 38,
+     "score": 0.375
+    },
+    {
+     "id": "geismar-023",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.2 Incident Description",
+     "page": 39,
+     "score": 0.347
+    },
+    {
+     "id": "geismar-012",
+     "section": "2 Gasket Failure, Toxic HF Release, and Fatality – October 2021 > 2.3 Technical Analysis",
+     "page": 26,
+     "score": 0.334
+    },
+    {
+     "id": "geismar-055",
+     "section": "4 HF Release and Serious Injury – June 2024 > 4.3 Safety Issues",
+     "page": 77,
+     "score": 0.322
+    },
+    {
+     "id": "geismar-030",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.1 Mechanical Integrity > 3.3.1.4 Mechanical Integrity Analysis",
+     "page": 48,
+     "score": 0.314
+    },
+    {
+     "id": "geismar-016",
+     "section": "2 Gasket Failure, Toxic HF Release, and Fatality – October 2021 > 2.4 Safety Issues > 2.4.2 Mechanical Integrity",
+     "page": 30,
+     "score": 0.313
+    },
+    {
+     "id": "geismar-056",
+     "section": "4 HF Release and Serious Injury – June 2024 > 4.3 Safety Issues > 4.3.1 Safe Work Practices > 4.3.1.2 Honeywell Maintenance Planning and Hazard Identification",
+     "page": 79,
+     "score": 0.312
+    },
+    {
+     "id": "geismar-010",
+     "section": "2 Gasket Failure, Toxic HF Release, and Fatality – October 2021 > 2.1 Background",
+     "page": 19,
+     "score": 0.312
+    },
+    {
+     "id": "monaca-019",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.386
+    },
+    {
+     "id": "monaca-015",
+     "section": "2 Incident Description > 2.4 Creation of an Unintended Flow Path",
+     "page": 26,
+     "score": 0.385
+    },
+    {
+     "id": "monaca-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.379
+    },
+    {
+     "id": "monaca-014",
+     "section": "2 Incident Description > 2.4 Creation of an Unintended Flow Path",
+     "page": 26,
+     "score": 0.377
+    },
+    {
+     "id": "monaca-024",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.376
+    },
+    {
+     "id": "monaca-037",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 53,
+     "score": 0.375
+    },
+    {
+     "id": "monaca-034",
+     "section": "3 Safety Issues > 3.2 Human-Machine Interface > 3.2.1 Furnace Motor-Operated Valves HMI",
+     "page": 46,
+     "score": 0.351
+    },
+    {
+     "id": "monaca-033",
+     "section": "3 Safety Issues > 3.2 Human-Machine Interface > 3.2.1 Furnace Motor-Operated Valves HMI",
+     "page": 46,
+     "score": 0.35
+    },
+    {
+     "id": "pemex-028",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.38
+    },
+    {
+     "id": "pemex-024",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.379
+    },
+    {
+     "id": "pemex-029",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.373
+    },
+    {
+     "id": "pemex-008",
+     "section": "1 Background > 1.5 Personal Protective Equipment",
+     "page": 15,
+     "score": 0.361
+    },
+    {
+     "id": "pemex-013",
+     "section": "2 Incident Description > 2.5 Hydrogen Sulfide Release",
+     "page": 22,
+     "score": 0.351
+    },
+    {
+     "id": "pemex-016",
+     "section": "2 Incident Description > 2.8 Stopping the Release",
+     "page": 24,
+     "score": 0.347
+    },
+    {
+     "id": "pemex-014",
+     "section": "2 Incident Description > 2.6 Alarms and Notification of the Release",
+     "page": 22,
+     "score": 0.344
+    },
+    {
+     "id": "pemex-023",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.2 Unintended Equipment Identifiers",
+     "page": 28,
+     "score": 0.334
+    }
+   ]
+  },
+  {
+   "id": "Q8",
+   "type": "cross",
+   "q": "What do the PEMEX and Wacker incidents have in common?",
+   "run": 1,
+   "status": 200,
+   "text": "They have a few things in common.\n\nBoth incidents involved maintenance work that went wrong on operating equipment. At PEMEX, workers opened the wrong piping and released hydrogen sulfide; at Wacker, a contractor over-torqued bolts on live equipment and released hydrogen chloride [pemex-048][wacker-034].\n\nBoth incidents were made worse because the companies did not adequately control the work before it started. PEMEX did not have an effective way to clearly identify the correct equipment and did not adequately control the hazards of opening piping in an active unit [pemex-017][pemex-002]. Wacker did not have written procedures for the torquing task and did not treat the work as needing hazardous-energy controls or a risk analysis [wacker-001][wacker-033].\n\nBoth incidents also involved contract workers and problems with safe work permitting. PEMEX’s permit process was broad and unclear, and Repcon workers were moved from a shutdown turnaround unit to an active unit without enough warning about the hazards [pemex-002][pemex-046]. Wacker’s permitting process did not identify the interaction between the torquing work and the insulation work happening nearby [wacker-019][wacker-033].\n\nFinally, in both cases, the releases hurt people who were nearby and not part of the task. PEMEX caused two fatalities and injuries to other contractors [pemex-016]. Wacker caused one fatality and serious injuries after workers tried to escape the cloud and fell from the structure [wacker-001][wacker-033].\n\n",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "PEMEX common causes findings release event consequences",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Wacker common causes findings release event consequences",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "wacker-034",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 49,
+     "score": 0.657
+    },
+    {
+     "id": "wacker-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.643
+    },
+    {
+     "id": "wacker-001",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.63
+    },
+    {
+     "id": "wacker-033",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 48,
+     "score": 0.625
+    },
+    {
+     "id": "wacker-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.6
+    },
+    {
+     "id": "wacker-027",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.1 Wacker Employees’ Identification of Egress Gap in PHA",
+     "page": 44,
+     "score": 0.587
+    },
+    {
+     "id": "wacker-019",
+     "section": "4 Safety Issues > 4.3 Simultaneous Operations (SIMOPs)",
+     "page": 33,
+     "score": 0.582
+    },
+    {
+     "id": "wacker-014",
+     "section": "3 Technical Analysis",
+     "page": 26,
+     "score": 0.581
+    },
+    {
+     "id": "pemex-001",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.709
+    },
+    {
+     "id": "pemex-016",
+     "section": "2 Incident Description > 2.8 Stopping the Release",
+     "page": 24,
+     "score": 0.694
+    },
+    {
+     "id": "pemex-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.684
+    },
+    {
+     "id": "pemex-048",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 63,
+     "score": 0.682
+    },
+    {
+     "id": "pemex-014",
+     "section": "2 Incident Description > 2.6 Alarms and Notification of the Release",
+     "page": 22,
+     "score": 0.662
+    },
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.662
+    },
+    {
+     "id": "pemex-046",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.65
+    },
+    {
+     "id": "pemex-017",
+     "section": "3 Safety Issues",
+     "page": 26,
+     "score": 0.645
+    }
+   ]
+  },
+  {
+   "id": "Q8",
+   "type": "cross",
+   "q": "What do the PEMEX and Wacker incidents have in common?",
+   "run": 2,
+   "status": 200,
+   "text": "They have the same basic pattern: both incidents happened during maintenance on operating equipment, and both were made worse by weak work planning and weak control of the hazard.\n\nIn the PEMEX incident, workers opened the wrong piping during a maintenance job, releasing toxic hydrogen sulfide. The CSB said PEMEX did not have an effective way to clearly identify the correct equipment to open, and its permit system did not control the hazard or protect nearby contractors in the adjacent turnaround unit. [pemex-001][pemex-048]\n\nIn the Wacker incident, a contractor over-torqued bolts on a live HCl piping flange during maintenance, which cracked the equipment and released gaseous hydrogen chloride. The CSB said Wacker lacked written procedures for the torquing task and did not treat the work as hazardous energy control work. [wacker-001][wacker-034]\n\nA second thing they share is that other workers nearby were put at risk because the companies did not properly evaluate simultaneous or adjacent work. At PEMEX, dozens of contractors were exposed to the hydrogen sulfide release. [pemex-002] At Wacker, another contractor crew was working on the same structure and was unnecessarily exposed to the HCl release. [wacker-002][wacker-033]\n\nSo, in plain terms: both were maintenance jobs on hazardous process equipment, both involved wrong or uncontrolled work on live systems, and both showed failures in identification, permitting, and coordination with other work nearby. [pemex-046][wacker-033]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "PEMEX common causes consequences release hydrogen sulfide maintenance work permit blind removal",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Wacker common causes consequences release hydrogen chloride maintenance work permit blind removal",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "wacker-034",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 49,
+     "score": 0.673
+    },
+    {
+     "id": "wacker-001",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.658
+    },
+    {
+     "id": "wacker-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.644
+    },
+    {
+     "id": "wacker-009",
+     "section": "1 Background > 1.6 Retorquing Requirements",
+     "page": 16,
+     "score": 0.639
+    },
+    {
+     "id": "wacker-007",
+     "section": "1 Background > 1.3 Hydrogen Chloride and Hydrochloric Acid",
+     "page": 14,
+     "score": 0.633
+    },
+    {
+     "id": "wacker-033",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 48,
+     "score": 0.619
+    },
+    {
+     "id": "wacker-027",
+     "section": "4 Safety Issues > 4.4 Means of Egress > 4.4.1 Wacker Employees’ Identification of Egress Gap in PHA",
+     "page": 44,
+     "score": 0.602
+    },
+    {
+     "id": "wacker-010",
+     "section": "2 Incident Description",
+     "page": 21,
+     "score": 0.599
+    },
+    {
+     "id": "pemex-017",
+     "section": "3 Safety Issues",
+     "page": 26,
+     "score": 0.741
+    },
+    {
+     "id": "pemex-001",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.727
+    },
+    {
+     "id": "pemex-046",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.718
+    },
+    {
+     "id": "pemex-032",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control",
+     "page": 45,
+     "score": 0.715
+    },
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.71
+    },
+    {
+     "id": "pemex-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.705
+    },
+    {
+     "id": "pemex-048",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 63,
+     "score": 0.702
+    },
+    {
+     "id": "pemex-047",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.698
+    }
+   ]
+  },
+  {
+   "id": "Q9",
+   "type": "cross",
+   "q": "Which of the reports made recommendations to OSHA?",
+   "run": 1,
+   "status": 200,
+   "text": "The reports made recommendations to OSHA in three of the six incidents: Shell Polymers Monaca, Honeywell Geismar, and Wacker Polysilicon. [monaca-038][geismar-073][wacker-036]\n\n- **Shell Polymers Monaca**: the report’s recommendations were to Shell, not OSHA. I did not find an OSHA recommendation there. [monaca-038]\n- **Honeywell Geismar**: the report reiterated a recommendation to OSHA to amend the PSM standard so it explicitly requires management of organizational and personnel change. [geismar-072][geismar-043]\n- **Wacker Polysilicon**: the report made recommendations to OSHA on simultaneous operations, including requiring coordination of SIMOPs and developing guidance on SIMOPs. [wacker-036][wacker-037]\n- **Givaudan Sense Colour**: the report reiterated a recommendation to OSHA to broaden PSM coverage of reactive hazards. [givaudan-066][givaudan-005]\n\nSo, the reports with OSHA recommendations were **Givaudan Sense Colour, Honeywell Geismar, and Wacker Polysilicon**. [givaudan-066][geismar-072][wacker-036]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "monaca"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "dow"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "givaudan"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "geismar"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "recommendations to OSHA",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "monaca-038",
+     "section": "5 Recommendations",
+     "page": 53,
+     "score": 0.481
+    },
+    {
+     "id": "monaca-018",
+     "section": "3 Safety Issues",
+     "page": 33,
+     "score": 0.439
+    },
+    {
+     "id": "monaca-041",
+     "section": "Appendix C: OSHA Citations",
+     "page": 69,
+     "score": 0.431
+    },
+    {
+     "id": "monaca-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.428
+    },
+    {
+     "id": "monaca-009",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.1 OSHA Process Safety Management Standard",
+     "page": 20,
+     "score": 0.417
+    },
+    {
+     "id": "monaca-028",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.2 Hazard Identification and Risk Analysis",
+     "page": 42,
+     "score": 0.408
+    },
+    {
+     "id": "monaca-039",
+     "section": "6 Key Lessons for the Industry",
+     "page": 54,
+     "score": 0.399
+    },
+    {
+     "id": "monaca-025",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.1 Policies, Procedures, and Alarms",
+     "page": 35,
+     "score": 0.399
+    },
+    {
+     "id": "givaudan-066",
+     "section": "6 Recommendations",
+     "page": 79,
+     "score": 0.515
+    },
+    {
+     "id": "givaudan-059",
+     "section": "4 Safety Issues > 4.5 Regulatory Coverage of Reactive Hazards > 4.5.3 Conclusion",
+     "page": 74,
+     "score": 0.487
+    },
+    {
+     "id": "givaudan-057",
+     "section": "4 Safety Issues > 4.5 Regulatory Coverage of Reactive Hazards > 4.5.1 Background",
+     "page": 70,
+     "score": 0.48
+    },
+    {
+     "id": "givaudan-055",
+     "section": "4 Safety Issues > 4.4 Facility Siting > 4.4.1 Progression of Control Room Safety in the Process Industry",
+     "page": 67,
+     "score": 0.452
+    },
+    {
+     "id": "givaudan-069",
+     "section": "7 Key Lessons for the Industry",
+     "page": 84,
+     "score": 0.448
+    },
+    {
+     "id": "givaudan-047",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.3 Lack of Process Safety Policy “Owner”",
+     "page": 60,
+     "score": 0.434
+    },
+    {
+     "id": "givaudan-041",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.1 Background",
+     "page": 55,
+     "score": 0.433
+    },
+    {
+     "id": "givaudan-005",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.421
+    },
+    {
+     "id": "wacker-036",
+     "section": "6 Recommendations > 6.2 New Recommendations > 6.2.1 Occupational Safety and Health Administration (OSHA)",
+     "page": 50,
+     "score": 0.609
+    },
+    {
+     "id": "wacker-035",
+     "section": "6 Recommendations",
+     "page": 50,
+     "score": 0.571
+    },
+    {
+     "id": "wacker-026",
+     "section": "4 Safety Issues > 4.3 Simultaneous Operations (SIMOPs) > 4.3.2  SIMOPs Standards and Guidelines > 4.3.2.4 Industry Standards Conclusions",
+     "page": 42,
+     "score": 0.555
+    },
+    {
+     "id": "wacker-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.547
+    },
+    {
+     "id": "wacker-037",
+     "section": "6 Recommendations > 6.2 New Recommendations > 6.2.2 Wacker Polysilicon",
+     "page": 51,
+     "score": 0.543
+    },
+    {
+     "id": "wacker-004",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.491
+    },
+    {
+     "id": "wacker-005",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.476
+    },
+    {
+     "id": "wacker-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.464
+    },
+    {
+     "id": "geismar-072",
+     "section": "8 Recommendations",
+     "page": 95,
+     "score": 0.591
+    },
+    {
+     "id": "geismar-043",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.2 Management of Organizational and Personnel Change > 3.3.2.1 Post-Incident Actions",
+     "page": 58,
+     "score": 0.583
+    },
+    {
+     "id": "geismar-006",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.521
+    },
+    {
+     "id": "geismar-041",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.2 Management of Organizational and Personnel Change > 3.3.2.1 Post-Incident Actions",
+     "page": 58,
+     "score": 0.486
+    },
+    {
+     "id": "geismar-073",
+     "section": "8 Recommendations > 8.3 New Recommendations > 8.3.1 Honeywell International Inc.",
+     "page": 96,
+     "score": 0.48
+    },
+    {
+     "id": "geismar-063",
+     "section": "5 Safety Management Systems Implementation and Auditing",
+     "page": 82,
+     "score": 0.473
+    },
+    {
+     "id": "geismar-074",
+     "section": "9 Key Lessons for the Industry",
+     "page": 98,
+     "score": 0.46
+    },
+    {
+     "id": "geismar-042",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.2 Management of Organizational and Personnel Change > 3.3.2.1 Post-Incident Actions",
+     "page": 58,
+     "score": 0.458
+    },
+    {
+     "id": "dow-033",
+     "section": "6  RECOMMENDATIONS",
+     "page": 47,
+     "score": 0.541
+    },
+    {
+     "id": "dow-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.464
+    },
+    {
+     "id": "dow-019",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.2 American Society of Safety Professionals",
+     "page": 35,
+     "score": 0.449
+    },
+    {
+     "id": "dow-018",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.1 National Fire Protection Association",
+     "page": 34,
+     "score": 0.441
+    },
+    {
+     "id": "dow-034",
+     "section": "7  KEY LESSONS FOR THE INDUSTRY",
+     "page": 48,
+     "score": 0.425
+    },
+    {
+     "id": "dow-022",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.4 Post Incident Changes",
+     "page": 36,
+     "score": 0.391
+    },
+    {
+     "id": "dow-028",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.5 Industry Guidance",
+     "page": 41,
+     "score": 0.389
+    },
+    {
+     "id": "dow-021",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.2 American Petroleum Institute",
+     "page": 36,
+     "score": 0.369
+    },
+    {
+     "id": "pemex-049",
+     "section": "5 Recommendations",
+     "page": 64,
+     "score": 0.504
+    },
+    {
+     "id": "pemex-031",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.4 Need for an Industry Standard",
+     "page": 44,
+     "score": 0.472
+    },
+    {
+     "id": "pemex-050",
+     "section": "6 Key Lessons for the Industry",
+     "page": 66,
+     "score": 0.462
+    },
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.452
+    },
+    {
+     "id": "pemex-044",
+     "section": "3 Safety Issues > 3.4 Conduct of Operations",
+     "page": 57,
+     "score": 0.432
+    },
+    {
+     "id": "pemex-043",
+     "section": "3 Safety Issues > 3.4 Conduct of Operations",
+     "page": 57,
+     "score": 0.424
+    },
+    {
+     "id": "pemex-032",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control",
+     "page": 45,
+     "score": 0.403
+    },
+    {
+     "id": "pemex-034",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control > 3.2.2 Hold or Stop Points",
+     "page": 47,
+     "score": 0.395
+    }
+   ]
+  },
+  {
+   "id": "Q9",
+   "type": "cross",
+   "q": "Which of the reports made recommendations to OSHA?",
+   "run": 2,
+   "status": 200,
+   "text": "The reports that made recommendations to OSHA were:\n\n- **PEMEX Deer Park** — no recommendation to OSHA; its recommendations were to PEMEX Deer Park and ASME. [pemex-049]\n- **Shell Polymers Monaca** — no recommendation to OSHA; its recommendations were to Shell. [monaca-038]\n- **Dow Louisiana Operations** — no recommendation to OSHA; its recommendations were to Dow, NFPA, and ASSP. [dow-033]\n- **Givaudan Sense Colour** — **yes**, it reiterated a recommendation to OSHA to amend the PSM standard to better cover reactive hazards. [givaudan-066][givaudan-058]\n- **Honeywell Geismar** — **yes**, it reiterated a recommendation to OSHA to require management-of-organizational-and-personnel-change review in the PSM standard. [geismar-072][geismar-043]\n- **Wacker Polysilicon** — **yes**, it recommended OSHA require coordination of simultaneous operations and develop guidance on SIMOPs. [wacker-035][wacker-036]\n\nSo, the reports that made recommendations to OSHA were **Givaudan Sense Colour, Honeywell Geismar, and Wacker Polysilicon**.",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "pemex"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "monaca"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "dow"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "givaudan"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "geismar"
+     }
+    },
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "OSHA recommendations",
+      "incident": "wacker"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "geismar-072",
+     "section": "8 Recommendations",
+     "page": 95,
+     "score": 0.572
+    },
+    {
+     "id": "geismar-043",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.2 Management of Organizational and Personnel Change > 3.3.2.1 Post-Incident Actions",
+     "page": 58,
+     "score": 0.541
+    },
+    {
+     "id": "geismar-006",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.507
+    },
+    {
+     "id": "geismar-073",
+     "section": "8 Recommendations > 8.3 New Recommendations > 8.3.1 Honeywell International Inc.",
+     "page": 96,
+     "score": 0.469
+    },
+    {
+     "id": "geismar-058",
+     "section": "4 HF Release and Serious Injury – June 2024 > 4.4 Post-Incident Actions",
+     "page": 81,
+     "score": 0.452
+    },
+    {
+     "id": "geismar-041",
+     "section": "3 HF Reboiler Explosion – January 2023 > 3.3 Safety Issues > 3.3.2 Management of Organizational and Personnel Change > 3.3.2.1 Post-Incident Actions",
+     "page": 58,
+     "score": 0.44
+    },
+    {
+     "id": "geismar-079",
+     "section": "Appendix F: Safer Technologies and Alternatives Analysis (STAA)",
+     "page": 109,
+     "score": 0.44
+    },
+    {
+     "id": "geismar-063",
+     "section": "5 Safety Management Systems Implementation and Auditing",
+     "page": 82,
+     "score": 0.44
+    },
+    {
+     "id": "givaudan-066",
+     "section": "6 Recommendations",
+     "page": 79,
+     "score": 0.505
+    },
+    {
+     "id": "givaudan-055",
+     "section": "4 Safety Issues > 4.4 Facility Siting > 4.4.1 Progression of Control Room Safety in the Process Industry",
+     "page": 67,
+     "score": 0.464
+    },
+    {
+     "id": "givaudan-059",
+     "section": "4 Safety Issues > 4.5 Regulatory Coverage of Reactive Hazards > 4.5.3 Conclusion",
+     "page": 74,
+     "score": 0.462
+    },
+    {
+     "id": "givaudan-057",
+     "section": "4 Safety Issues > 4.5 Regulatory Coverage of Reactive Hazards > 4.5.1 Background",
+     "page": 70,
+     "score": 0.461
+    },
+    {
+     "id": "givaudan-069",
+     "section": "7 Key Lessons for the Industry",
+     "page": 84,
+     "score": 0.426
+    },
+    {
+     "id": "givaudan-007",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.412
+    },
+    {
+     "id": "givaudan-058",
+     "section": "4 Safety Issues > 4.5 Regulatory Coverage of Reactive Hazards > 4.5.2 CSB’s 2002 Reactive Hazard Study",
+     "page": 71,
+     "score": 0.409
+    },
+    {
+     "id": "givaudan-047",
+     "section": "4 Safety Issues > 4.2 Commitment to Managing Process Safety > 4.2.3 Lack of Process Safety Policy “Owner”",
+     "page": 60,
+     "score": 0.405
+    },
+    {
+     "id": "dow-033",
+     "section": "6  RECOMMENDATIONS",
+     "page": 47,
+     "score": 0.528
+    },
+    {
+     "id": "dow-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.457
+    },
+    {
+     "id": "dow-019",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.2 American Society of Safety Professionals",
+     "page": 35,
+     "score": 0.455
+    },
+    {
+     "id": "dow-018",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.1 National Fire Protection Association",
+     "page": 34,
+     "score": 0.442
+    },
+    {
+     "id": "dow-022",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.4 Post Incident Changes",
+     "page": 36,
+     "score": 0.391
+    },
+    {
+     "id": "dow-034",
+     "section": "7  KEY LESSONS FOR THE INDUSTRY",
+     "page": 48,
+     "score": 0.39
+    },
+    {
+     "id": "dow-028",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.5 Industry Guidance",
+     "page": 41,
+     "score": 0.388
+    },
+    {
+     "id": "dow-021",
+     "section": "4 Safety Issues > 4.1 Vessel Closure Practices > 4.1.3 Industry guidance > 4.1.3.2 American Petroleum Institute",
+     "page": 36,
+     "score": 0.377
+    },
+    {
+     "id": "pemex-049",
+     "section": "5 Recommendations",
+     "page": 64,
+     "score": 0.51
+    },
+    {
+     "id": "pemex-031",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.4 Need for an Industry Standard",
+     "page": 44,
+     "score": 0.472
+    },
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.445
+    },
+    {
+     "id": "pemex-050",
+     "section": "6 Key Lessons for the Industry",
+     "page": 66,
+     "score": 0.438
+    },
+    {
+     "id": "pemex-032",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control",
+     "page": 45,
+     "score": 0.407
+    },
+    {
+     "id": "pemex-029",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.4
+    },
+    {
+     "id": "pemex-034",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control > 3.2.2 Hold or Stop Points",
+     "page": 47,
+     "score": 0.394
+    },
+    {
+     "id": "pemex-044",
+     "section": "3 Safety Issues > 3.4 Conduct of Operations",
+     "page": 57,
+     "score": 0.39
+    },
+    {
+     "id": "wacker-036",
+     "section": "6 Recommendations > 6.2 New Recommendations > 6.2.1 Occupational Safety and Health Administration (OSHA)",
+     "page": 50,
+     "score": 0.621
+    },
+    {
+     "id": "wacker-035",
+     "section": "6 Recommendations",
+     "page": 50,
+     "score": 0.58
+    },
+    {
+     "id": "wacker-026",
+     "section": "4 Safety Issues > 4.3 Simultaneous Operations (SIMOPs) > 4.3.2  SIMOPs Standards and Guidelines > 4.3.2.4 Industry Standards Conclusions",
+     "page": 42,
+     "score": 0.546
+    },
+    {
+     "id": "wacker-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.542
+    },
+    {
+     "id": "wacker-037",
+     "section": "6 Recommendations > 6.2 New Recommendations > 6.2.2 Wacker Polysilicon",
+     "page": 51,
+     "score": 0.542
+    },
+    {
+     "id": "wacker-004",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.498
+    },
+    {
+     "id": "wacker-005",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.474
+    },
+    {
+     "id": "wacker-038",
+     "section": "6 Recommendations > 6.2 New Recommendations > 6.2.5 International Code Council (ICC)",
+     "page": 53,
+     "score": 0.463
+    },
+    {
+     "id": "monaca-038",
+     "section": "5 Recommendations",
+     "page": 53,
+     "score": 0.467
+    },
+    {
+     "id": "monaca-018",
+     "section": "3 Safety Issues",
+     "page": 33,
+     "score": 0.435
+    },
+    {
+     "id": "monaca-009",
+     "section": "1 Background > 1.6 Federal Safety Regulations > 1.6.1 OSHA Process Safety Management Standard",
+     "page": 20,
+     "score": 0.42
+    },
+    {
+     "id": "monaca-041",
+     "section": "Appendix C: OSHA Citations",
+     "page": 69,
+     "score": 0.413
+    },
+    {
+     "id": "monaca-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.405
+    },
+    {
+     "id": "monaca-039",
+     "section": "6 Key Lessons for the Industry",
+     "page": 54,
+     "score": 0.394
+    },
+    {
+     "id": "monaca-028",
+     "section": "3 Safety Issues > 3.1 Reliance on Administrative Controls > 3.1.2 Hazard Identification and Risk Analysis",
+     "page": 42,
+     "score": 0.392
+    },
+    {
+     "id": "monaca-033",
+     "section": "3 Safety Issues > 3.2 Human-Machine Interface > 3.2.1 Furnace Motor-Operated Valves HMI",
+     "page": 46,
+     "score": 0.392
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "type": "out",
+   "q": "Has PEMEX closed the CSB's recommendations yet?",
+   "run": 1,
+   "status": 200,
+   "text": "The reports don’t say whether PEMEX has closed out all of the CSB’s recommendations, because recommendation status after publication is outside the reports. They do list the recommendations the CSB made to PEMEX Deer Park: label piping in ARU6 and ARU7, create procedures so craftworkers moved into or out of a Positive Isolation area get hazard and work instructions, and establish a conduct-of-operations system. The report also says the CSB did not issue a recommendation on positive equipment identification because PEMEX had already made improvements after the incident. [pemex-049][pemex-003]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "PEMEX recommendations closed status implemented closed out follow-up",
+      "incident": "pemex"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.649
+    },
+    {
+     "id": "pemex-049",
+     "section": "5 Recommendations",
+     "page": 64,
+     "score": 0.632
+    },
+    {
+     "id": "pemex-041",
+     "section": "3 Safety Issues > 3.3 Turnaround Contractor Management",
+     "page": 50,
+     "score": 0.585
+    },
+    {
+     "id": "pemex-042",
+     "section": "3 Safety Issues > 3.4 Conduct of Operations",
+     "page": 57,
+     "score": 0.577
+    },
+    {
+     "id": "pemex-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.572
+    },
+    {
+     "id": "pemex-032",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control",
+     "page": 45,
+     "score": 0.567
+    },
+    {
+     "id": "pemex-035",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control > 3.2.3 Controlling Hazards to Surrounding Processes",
+     "page": 48,
+     "score": 0.563
+    },
+    {
+     "id": "pemex-036",
+     "section": "3 Safety Issues > 3.3 Turnaround Contractor Management",
+     "page": 50,
+     "score": 0.561
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "type": "out",
+   "q": "Has PEMEX closed the CSB's recommendations yet?",
+   "run": 2,
+   "status": 200,
+   "text": "The reports don’t say whether PEMEX has closed the CSB’s recommendations. They list the recommendations to PEMEX Deer Park and note one related action on positive equipment identification: after the incident, PEMEX made improvements so the CSB did not issue a recommendation on that point. But the report does not say which recommendations, if any, have been completed or formally closed. [pemex-003][pemex-049][pemex-041]\n\nThe PEMEX report does cover the incident, the causes, the safety issues, and the recommendations themselves. [pemex-001][pemex-046][pemex-049]",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "PEMEX recommendations closed status implemented completed closed after report",
+      "incident": "pemex"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.641
+    },
+    {
+     "id": "pemex-049",
+     "section": "5 Recommendations",
+     "page": 64,
+     "score": 0.611
+    },
+    {
+     "id": "pemex-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.572
+    },
+    {
+     "id": "pemex-041",
+     "section": "3 Safety Issues > 3.3 Turnaround Contractor Management",
+     "page": 50,
+     "score": 0.569
+    },
+    {
+     "id": "pemex-042",
+     "section": "3 Safety Issues > 3.4 Conduct of Operations",
+     "page": 57,
+     "score": 0.567
+    },
+    {
+     "id": "pemex-001",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.565
+    },
+    {
+     "id": "pemex-032",
+     "section": "3 Safety Issues > 3.2 Work Permitting and Hazard Control",
+     "page": 45,
+     "score": 0.558
+    },
+    {
+     "id": "pemex-046",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.556
+    }
+   ]
+  },
+  {
+   "id": "Q11",
+   "type": "out",
+   "q": "What's the best way to size a pressure relief valve?",
+   "run": 1,
+   "status": 200,
+   "text": "The reports do not give general guidance on how to size a pressure relief valve. They cover six specific incidents: PEMEX Deer Park, Shell Polymers Monaca, Dow Louisiana, Givaudan Sense Colour, Honeywell Geismar, and Wacker Polysilicon, and focus on what happened, why it happened, and the CSB’s findings and recommendations in those cases.",
+   "toolCalls": [],
+   "retrieved": []
+  },
+  {
+   "id": "Q11",
+   "type": "out",
+   "q": "What's the best way to size a pressure relief valve?",
+   "run": 2,
+   "status": 200,
+   "text": "The reports do not give general guidance on how to size a pressure relief valve. They cover specific incidents at PEMEX Deer Park, Shell Polymers Monaca, Dow Louisiana, Givaudan Sense Colour, Honeywell Geismar, and Wacker Polysilicon, including what happened, what the CSB found, and the recommendations tied to those events.",
+   "toolCalls": [],
+   "retrieved": []
+  },
+  {
+   "id": "Q12",
+   "type": "out",
+   "q": "What did the CSB conclude about the Evergreen Packaging incident?",
+   "run": 1,
+   "status": 200,
+   "text": "The CSB concluded that the incident was caused by opening the wrong equipment, which released pressurized hydrogen sulfide. PEMEX Deer Park did not have an effective way to clearly identify the correct equipment before authorizing the work. [pemex-048]\n\nIt also concluded that the severity was worsened because the company did not adequately evaluate the hazard of opening equipment in an active unit next to a unit under turnaround, where many contractors were exposed to the release. [pemex-048]\n\nThe report says PEMEX Deer Park also deviated from several of its own policies and procedures that could have prevented the incident. [pemex-048]\n\nIf you meant a different Evergreen Packaging incident, that is not one of the six CSB reports I can search.",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Evergreen Packaging incident CSB conclusions",
+      "incident": "pemex"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "pemex-002",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.512
+    },
+    {
+     "id": "pemex-003",
+     "section": "Executive Summary",
+     "page": 7,
+     "score": 0.494
+    },
+    {
+     "id": "pemex-049",
+     "section": "5 Recommendations",
+     "page": 64,
+     "score": 0.489
+    },
+    {
+     "id": "pemex-048",
+     "section": "4 Conclusions > 4.2 Cause",
+     "page": 63,
+     "score": 0.485
+    },
+    {
+     "id": "pemex-050",
+     "section": "6 Key Lessons for the Industry",
+     "page": 66,
+     "score": 0.485
+    },
+    {
+     "id": "pemex-031",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.4 Need for an Industry Standard",
+     "page": 44,
+     "score": 0.483
+    },
+    {
+     "id": "pemex-045",
+     "section": "4 Conclusions > 4.1 Findings",
+     "page": 61,
+     "score": 0.479
+    },
+    {
+     "id": "pemex-028",
+     "section": "3 Safety Issues > 3.1 Positive Equipment Identification > 3.1.3 Standardized Equipment Identification System for Line Opening Activities > 3.1.3.2 A Recurring Hazard – Similar Recent Incidents",
+     "page": 40,
+     "score": 0.478
+    }
+   ]
+  },
+  {
+   "id": "Q12",
+   "type": "out",
+   "q": "What did the CSB conclude about the Evergreen Packaging incident?",
+   "run": 2,
+   "status": 200,
+   "text": "The CSB concluded that the Evergreen Packaging incident was the Dow Louisiana Operations explosions report. It found that metal debris from portable work lights left in a reflux drum degraded and moved downstream, where it punctured a rupture disc and let ethylene oxide enter pressure relief piping that contained air. The ethylene oxide ignited, the flame and combustion products propagated to a reflux drum filled with ethylene oxide, and the drum failed catastrophically from the pressure rise caused by decomposition. [dow-032]\n\nThe CSB also said Dow’s inadequate vessel-closure practices allowed the work lights to be left in the drum, its failure to maintain an inert atmosphere in the pressure relief piping let the ethylene oxide ignite, and the design that vented relief back into the reflux drum made the consequences much worse. [dow-032][dow-003]\n\nIf you meant a different Evergreen Packaging incident, it is not one of the six CSB reports I can search.",
+   "toolCalls": [
+    {
+     "tool": "searchCsbReports",
+     "input": {
+      "query": "Evergreen Packaging incident conclusion",
+      "incident": "dow"
+     }
+    }
+   ],
+   "retrieved": [
+    {
+     "id": "dow-031",
+     "section": "5 Conclusions > 5.1 Findings",
+     "page": 45,
+     "score": 0.498
+    },
+    {
+     "id": "dow-032",
+     "section": "5 Conclusions > 5.2 Cause",
+     "page": 46,
+     "score": 0.483
+    },
+    {
+     "id": "dow-002",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.469
+    },
+    {
+     "id": "dow-027",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.4 Process Hazards Analysis",
+     "page": 40,
+     "score": 0.457
+    },
+    {
+     "id": "dow-009",
+     "section": "3 Technical Analysis",
+     "page": 22,
+     "score": 0.449
+    },
+    {
+     "id": "dow-010",
+     "section": "3 Technical Analysis > 3.2 Rupture Disc Failure",
+     "page": 24,
+     "score": 0.445
+    },
+    {
+     "id": "dow-029",
+     "section": "4 Safety Issues > 4.2 Inerting System Control > 4.2.6 Post Incident Changes",
+     "page": 42,
+     "score": 0.44
+    },
+    {
+     "id": "dow-003",
+     "section": "Executive Summary",
+     "page": 8,
+     "score": 0.438
+    }
+   ]
+  },
+  {
+   "id": "Q13",
+   "type": "greeting",
+   "q": "Hi, what can you help me with?",
+   "run": 1,
+   "status": 200,
+   "text": "I can help you with questions about six CSB investigation reports:\n\n- PEMEX Deer Park hydrogen sulfide release\n- Shell Polymers Monaca furnace explosion\n- Dow Louisiana Operations ethylene oxide explosions\n- Givaudan Sense Colour runaway reaction and explosion\n- Honeywell Geismar hydrogen fluoride incidents\n- Wacker Polysilicon hydrogen chloride release\n\nI can explain what happened, what caused it, what the CSB found, and what recommendations or lessons were in the reports. If you want, ask about one incident or compare incidents.",
+   "toolCalls": [],
+   "retrieved": []
+  },
+  {
+   "id": "Q13",
+   "type": "greeting",
+   "q": "Hi, what can you help me with?",
+   "run": 2,
+   "status": 200,
+   "text": "I can answer questions about six CSB investigation reports:\n\n- PEMEX Deer Park hydrogen sulfide release\n- Shell Polymers Monaca furnace explosion\n- Dow Louisiana Operations ethylene oxide explosions\n- Givaudan Sense Colour runaway reaction and explosion\n- Honeywell Geismar hydrogen fluoride incidents\n- Wacker Polysilicon hydrogen chloride release\n\nI can help with what happened, why it happened, the CSB’s findings, and the recommendations or lessons from those reports.",
+   "toolCalls": [],
+   "retrieved": []
+  }
+ ]
+}
